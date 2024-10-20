@@ -5,20 +5,40 @@
         "name": "Trà sữa truyền thống",
         "category": "Best Seller",
         "price": 35000,
-        "image": "path/to/image1.jpg",
+        "image": "images/tradition_milk_tea.jpg",
         "sizes": ["S", "M", "L"],
         "toppings": ["Trân châu", "Thạch", "Pudding"],
-        "description": "Trà sữa với hương vị truyền thống, kết hợp với các topping đa dạng."
+        "description": "Trà sữa với hương vị truyền thống, đậm đà và hấp dẫn."
       },
       {
         "id": 2,
         "name": "Trà sữa Matcha",
         "category": "Trà sữa mới",
         "price": 40000,
-        "image": "path/to/image2.jpg",
+        "image": "images/matcha_milk_tea.jpg",
         "sizes": ["S", "M", "L"],
         "toppings": ["Trân châu", "Thạch", "Kem Cheese"],
-        "description": "Trà sữa vị matcha đậm đà, kết hợp với lớp kem cheese béo ngậy."
+        "description": "Trà sữa matcha tươi mới, thơm ngon kết hợp với kem cheese đặc biệt."
+      },
+      {
+        "id": 3,
+        "name": "Trà sữa Oolong",
+        "category": "Best Seller",
+        "price": 38000,
+        "image": "images/oolong_milk_tea.jpg",
+        "sizes": ["S", "M", "L"],
+        "toppings": ["Trân châu", "Thạch", "Kem Cheese"],
+        "description": "Trà sữa Oolong với vị trà thanh nhẹ, kết hợp hoàn hảo với các loại topping."
+      },
+      {
+        "id": 4,
+        "name": "Trà sữa Hokkaido",
+        "category": "Trà sữa mới",
+        "price": 42000,
+        "image": "images/hokkaido_milk_tea.jpg",
+        "sizes": ["S", "M", "L"],
+        "toppings": ["Trân châu", "Pudding", "Kem Cheese"],
+        "description": "Trà sữa Hokkaido với vị sữa đậm đà và đặc trưng."
       }
     ],
     "cart": [
