@@ -1,0 +1,79 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Trà sữa truyền thống",
+      "category": "Best Seller",
+      "price": 35000,
+      "image": "images/tradition_milk_tea.jpg",
+      "sizes": ["S", "M", "L"],
+      "toppings": ["Trân châu", "Thạch", "Pudding"],
+      "description": "Trà sữa với hương vị truyền thống, đậm đà và hấp dẫn."
+    },
+    {
+      "id": 2,
+      "name": "Trà sữa Matcha",
+      "category": "Trà sữa mới",
+      "price": 40000,
+      "image": "images/matcha_milk_tea.jpg",
+      "sizes": ["S", "M", "L"],
+      "toppings": ["Trân châu", "Thạch", "Kem Cheese"],
+      "description": "Trà sữa matcha tươi mới, thơm ngon kết hợp với kem cheese đặc biệt."
+    },
+    {
+      "id": 3,
+      "name": "Trà sữa Oolong",
+      "category": "Best Seller",
+      "price": 38000,
+      "image": "images/oolong_milk_tea.jpg",
+      "sizes": ["S", "M", "L"],
+      "toppings": ["Trân châu", "Thạch", "Kem Cheese"],
+      "description": "Trà sữa Oolong với vị trà thanh nhẹ, kết hợp hoàn hảo với các loại topping."
+    },
+    {
+      "id": 4,
+      "name": "Trà sữa Hokkaido",
+      "category": "Trà sữa mới",
+      "price": 42000,
+      "image": "images/hokkaido_milk_tea.jpg",
+      "sizes": ["S", "M", "L"],
+      "toppings": ["Trân châu", "Pudding", "Kem Cheese"],
+      "description": "Trà sữa Hokkaido với vị sữa đậm đà và đặc trưng."
+    }
+  ],
+  "cart": [
+    {
+      "productId": 1,
+      "name": "Trà sữa truyền thống",
+      "size": "M",
+      "toppings": ["Trân châu"],
+      "sugarLevel": "50%",
+      "iceLevel": "50%",
+      "quantity": 2,
+      "price": 35000
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 1,
+      "recipientName": "Nguyễn Văn A",
+      "phoneNumber": "0123456789",
+      "address": "123 Đường ABC, Quận 1, TP.HCM",
+      "cart": [
+        {
+          "productId": 1,
+          "name": "Trà sữa truyền thống",
+          "size": "M",
+          "toppings": ["Trân châu"],
+          "sugarLevel": "50%",
+          "iceLevel": "50%",
+          "quantity": 2,
+          "price": 35000
+        }
+      ],
+      "totalPrice": 70000,
+      "note": "Giao hàng trong vòng 30 phút",
+      "status": "Pending"
+    }
+  ]
+}
