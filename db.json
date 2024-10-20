@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Trà sữa truyền thống",
-      "category": "Best Seller",
+      "category": ["Best Seller","Trà sữa"],
       "price": 35000,
       "image": "images/tradition_milk_tea.jpg",
       "sizes": ["S", "M", "L"],
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Trà sữa Matcha",
-      "category": "Trà sữa mới",
+      "category": ["Best Seller","Trà sữa"],
       "price": 40000,
       "image": "images/matcha_milk_tea.jpg",
       "sizes": ["S", "M", "L"],
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "name": "Trà sữa Oolong",
-      "category": "Best Seller",
+      "category": ["Best Seller","Trà sữa"],
       "price": 38000,
       "image": "images/oolong_milk_tea.jpg",
       "sizes": ["S", "M", "L"],
@@ -33,7 +33,7 @@
     {
       "id": 4,
       "name": "Trà sữa Hokkaido",
-      "category": "Trà sữa mới",
+      "category": ["Trà sữa mới","Trà sữa"],
       "price": 42000,
       "image": "images/hokkaido_milk_tea.jpg",
       "sizes": ["S", "M", "L"],
@@ -43,7 +43,7 @@
     {
       "id": 5,
       "name": "Trà sữa bạc hà",
-      "category": "Trà sữa mới",
+      "category": "Trà sữa",
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -53,7 +53,7 @@
     {
       "id": 6,
       "name": "Trà sữa trân châu đường đen",
-      "category": "Best Seller",
+      "category": ["Best Seller","Trà sữa"],
       "price": 40000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -63,7 +63,7 @@
     {
       "id": 7,
       "name": "Trà sữa Oreo Cake Cream",
-      "category": "Trà sữa mới",
+      "category": ["Trà sữa mới","Trà sữa"],
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -73,7 +73,7 @@
     {
       "id": 8,
       "name": "Trà sữa khoai môn",
-      "category": "Trà sữa mới",
+      "category": "Trà sữa",
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -83,7 +83,7 @@
     {
       "id": 9,
       "name": "Trà sữa xoài kem cheese",
-      "category": "Trà sữa mới",
+      "category": ["Trà sữa mới","Trà sữa"],
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -93,7 +93,7 @@
     {
       "id": 10,
       "name": "Trà sữa matcha đậu đỏ",
-      "category": "Trà sữa mới",
+      "category": "Trà sữa",
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -103,7 +103,7 @@
     {
       "id": 11,
       "name": "Trà sữa Oreo Chocolate Cream",
-      "category": "Trà sữa mới",
+      "category": "Trà sữa",
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -113,7 +113,7 @@
     {
       "id": 12,
       "name": "Trà sữa Pudding đậu đỏ",
-      "category": "Trà sữa mới",
+      "category": ["Trà sữa mới","Trà sữa"],
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -123,7 +123,7 @@
     {
       "id": 13,
       "name": "Trà sữa sương sáo",
-      "category": "Trà sữa mới",
+      "category": "Trà sữa",
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -133,7 +133,7 @@
     {
       "id": 14,
       "name": "Trà sữa Earl Grey",
-      "category": "Trà sữa mới",
+      "category": ["Trà sữa mới","Trà sữa"],
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -143,7 +143,7 @@
     {
       "id": 15,
       "name": "Trà sữa caramel",
-      "category": "Trà sữa mới",
+      "category": "Trà sữa",
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -153,7 +153,7 @@
     {
       "id": 16,
       "name": "TRÀ SỮA SOCOLA",
-      "category": "Trà sữa mới",
+      "category": ["Best Seller","Trà sữa"],
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -163,7 +163,7 @@
     {
       "id": 17,
       "name": "Trà sữa trân châu trắng",
-      "category": "Trà sữa mới",
+      "category": ["Trà sữa mới","Trà sữa"],
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -173,7 +173,7 @@
     {
       "id": 18,
       "name": "Trà sữa dâu tây",
-      "category": "Trà sữa mới",
+      "category": "Trà sữa",
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -183,7 +183,7 @@
     {
       "id": 19,
       "name": "Hồng trà sữa",
-      "category": "Trà sữa mới",
+      "category": ["Best Seller","Trà sữa"],
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
@@ -192,13 +192,13 @@
     },
     {
       "id": 20,
-      "name": "Trà sữa matcha đậu đỏ",
-      "category": "Trà sữa mới",
+      "name": "Trà sữa Kiwi",
+      "category": "Trà sữa",
       "price": 42000,
       "image": "",
       "sizes": ["S", "M", "L"],
       "toppings": ["trân châu đen", "trân châu trắng", " thạch rau câu"],
-      "description": "Trà sữa matcha đậu đỏ là trà sữa trà xanh với vị chát nhẹ của trà hòa quyện cùng vị thơm mát của matcha, chút ngọt nhẹ của sữa tươi. Phần đậu đỏ được rải phía trên bề mặt cốc trà vô cùng hấp dẫn. Đậu đỏ có mùi thơm và vị ngọt dịu đặc trưng, kết hợp với vị matcha sẽ tạo nên hương vị hoàn hảo ở đầu lưỡi."
+      "description": "Kiwi không chỉ trông hấp dẫn bởi màu xanh bắt mắt mà còn nổi tiếng với mùi vị ngon lành cùng công dụng rất tốt cho sức khỏe, chống lại quá trình oxy hóa. Trà sữa kiwi không chỉ đơn thuần là một thức uống giải khát mà còn giúp làm đẹp da đối với chị em phụ nữ."
     }
   ],
 
