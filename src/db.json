@@ -1,0 +1,60 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Trà sữa truyền thống",
+        "category": "Best Seller",
+        "price": 35000,
+        "image": "path/to/image1.jpg",
+        "sizes": ["S", "M", "L"],
+        "toppings": ["Trân châu", "Thạch", "Pudding"],
+        "description": "Trà sữa với hương vị truyền thống, kết hợp với các topping đa dạng."
+      },
+      {
+        "id": 2,
+        "name": "Trà sữa Matcha",
+        "category": "Trà sữa mới",
+        "price": 40000,
+        "image": "path/to/image2.jpg",
+        "sizes": ["S", "M", "L"],
+        "toppings": ["Trân châu", "Thạch", "Kem Cheese"],
+        "description": "Trà sữa vị matcha đậm đà, kết hợp với lớp kem cheese béo ngậy."
+      }
+    ],
+    "cart": [
+      {
+        "productId": 1,
+        "name": "Trà sữa truyền thống",
+        "size": "M",
+        "toppings": ["Trân châu"],
+        "sugarLevel": "50%",
+        "iceLevel": "50%",
+        "quantity": 2,
+        "price": 35000
+      }
+    ],
+    "orders": [
+      {
+        "orderId": 1,
+        "recipientName": "Nguyễn Văn A",
+        "phoneNumber": "0123456789",
+        "address": "123 Đường ABC, Quận 1, TP.HCM",
+        "cart": [
+          {
+            "productId": 1,
+            "name": "Trà sữa truyền thống",
+            "size": "M",
+            "toppings": ["Trân châu"],
+            "sugarLevel": "50%",
+            "iceLevel": "50%",
+            "quantity": 2,
+            "price": 35000
+          }
+        ],
+        "totalPrice": 70000,
+        "note": "Giao hàng trong vòng 30 phút",
+        "status": "Pending"
+      }
+    ]
+  }
+  
