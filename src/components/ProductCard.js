@@ -3,102 +3,102 @@ import Modal from 'react-modal';
 
 const ProductCard = ({ product, addToCart }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [size, setSize] = useState('');
   const [sugarLevel, setSugarLevel] = useState('');
   const [iceLevel, setIceLevel] = useState('');
+  const [size, setSize] = useState('');
   const [toppings, setToppings] = useState([]);
   const [quantity, setQuantity] = useState(1);
-
-  const toggleModal = () => {
-    setIsOpen(!isOpen);
-  };
 
   const handleAddToCart = () => {
     const item = {
       ...product,
-      size,
       sugarLevel,
       iceLevel,
+      size,
       toppings,
       quantity,
     };
     addToCart(item);
-    toggleModal(); // Đóng modal sau khi thêm vào giỏ
-  };
-
-  const handleToggleTopping = (topping) => {
-    setToppings(prev =>
-      prev.includes(topping) ? prev.filter(t => t !== topping) : [...prev, topping]
-    );
+    setIsOpen(false);
   };
 
   return (
     <div className="card">
-      <img src={product.image} className="card-img-top" alt={product.name} />
+      <img src={product.image} alt={product.name} className="card-img-top" />
       <div className="card-body">
         <h5 className="card-title">{product.name}</h5>
-        <button className="btn btn-primary" onClick={toggleModal}>Thêm vào giỏ</button>
+        <p className="card-text">{product.description}</p>
+        <button className="btn btn-primary" onClick={() => setIsOpen(true)}>Thêm vào giỏ hàng</button>
       </div>
 
-      {/* Modal cho lựa chọn */}
-      <Modal isOpen={isOpen} onRequestClose={toggleModal} contentLabel="Lựa chọn sản phẩm">
-        <h2>Lựa chọn cho {product.name}</h2>
-        <button className="btn btn-close" onClick={toggleModal}>Đóng</button>
-
-        <div className="mb-3">
-          <label className="form-label">Size:</label>
-          <select className="form-select" value={size} onChange={e => setSize(e.target.value)}>
-            <option value="">Chọn kích thước</option>
-            {product.sizes && product.sizes.map((s, index) => (
-              <option key={index} value={s}>{s}</option>
-            ))}
-          </select>
-        </div>
-
-        <div className="mb-3">
-          <label className="form-label">Tỉ lệ đường:</label>
-          <select className="form-select" value={sugarLevel} onChange={e => setSugarLevel(e.target.value)}>
-            <option value="">Chọn tỉ lệ đường</option>
-            <option value="không">Không đường</option>
-            <option value="ít">Ít đường</option>
-            <option value="vừa">Vừa</option>
-            <option value="nhiều">Nhiều đường</option>
-          </select>
-        </div>
-
-        <div className="mb-3">
-          <label className="form-label">Tỉ lệ đá:</label>
-          <select className="form-select" value={iceLevel} onChange={e => setIceLevel(e.target.value)}>
-            <option value="">Chọn tỉ lệ đá</option>
-            {product.iceLevels && product.iceLevels.map((ice, index) => (
-              <option key={index} value={ice}>{ice}</option>
-            ))}
-          </select>
-        </div>
-
-        <div className="mb-3">
-          <label className="form-label">Topping thêm:</label>
-          <div>
-            {product.toppings && product.toppings.map((topping, index) => (
-              <label key={index}>
-                <input type="checkbox" onChange={() => handleToggleTopping(topping)} /> {topping}
-              </label>
+      {/* Modal cho việc chọn tùy chọn */}
+      <Modal isOpen={isOpen} onRequestClose={() => setIsOpen(false)}>
+      <button
+          style={{ position: 'absolute', right: '20px', top: '20px', background: 'none', border: 'none', fontSize: '24px', cursor: 'pointer' }}
+          onClick={() => setIsOpen(false)}
+        >&times; {/* Dấu X */}
+        </button>
+        <h2>{product.name}</h2>
+        <form>
+          <div className="mb-3">
+            <label className="form-label">Tỉ lệ đường:</label>
+            <select className="form-select" value={sugarLevel} onChange={e => setSugarLevel(e.target.value)} required>
+              <option value="">Chọn tỉ lệ đường</option>
+              {(product.sugarLevel || []).map((level, index) => (
+                <option key={index} value={level}>{level}%</option>
+              ))}
+            </select>
+          </div>
+          <div className="mb-3">
+            <label className="form-label">Tỉ lệ đá:</label>
+            <select className="form-select" value={iceLevel} onChange={e => setIceLevel(e.target.value)} required>
+              <option value="">Chọn tỉ lệ đá</option>
+              {(product.iceLevels || []).map((level, index) => (
+                <option key={index} value={level}>{level}%</option>
+              ))}
+            </select>
+          </div>
+          <div className="mb-3">
+            <label className="form-label">Size:</label>
+            <select className="form-select" value={size} onChange={e => setSize(e.target.value)} required>
+              <option value="">Chọn size</option>
+              {(product.sizes || []).map((sizeOption, index) => (
+                <option key={index} value={sizeOption}>{sizeOption}</option>
+              ))}
+            </select>
+          </div>
+          <div className="mb-3">
+            <label className="form-label">Topping:</label>
+            {(product.toppings || []).map((topping, index) => (
+              <div key={index}>
+                <input
+                  type="checkbox"
+                  value={topping}
+                  onChange={e => {
+                    if (e.target.checked) {
+                      setToppings([...toppings, topping]);
+                    } else {
+                      setToppings(toppings.filter(t => t !== topping));
+                    }
+                  }}
+                />
+                <label>{topping}</label>
+              </div>
             ))}
           </div>
-        </div>
-
-        <div className="mb-3">
-          <label className="form-label">Số lượng:</label>
-          <input
-            type="number"
-            className="form-control"
-            value={quantity}
-            min="1"
-            onChange={e => setQuantity(e.target.value)}
-          />
-        </div>
-
-        <button className="btn btn-success" onClick={handleAddToCart}>Xác nhận thêm vào giỏ</button>
+          <div className="mb-3">
+            <label className="form-label">Số lượng:</label>
+            <input
+              type="number"
+              className="form-control"
+              value={quantity}
+              min="1"
+              onChange={e => setQuantity(e.target.value)}
+            />
+          </div>
+          <button type="button" className="btn btn-success" onClick={handleAddToCart}>Xác nhận thêm vào giỏ</button>
+          <button type="button" className="btn btn-secondary" onClick={() => setIsOpen(false)}>Hủy</button>
+        </form>
       </Modal>
     </div>
   );
