@@ -6,3 +6,38 @@ body {
     padding-top: 20px;
   }
   
+  .card {
+    width: 20rem; /* Cố định chiều rộng */
+  }
+  
+  .card-img-top {
+    height: 200px; /* Cố định chiều cao cho ảnh */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Kích thước chữ cho tiêu đề */
+    white-space: nowrap; /* Ngăn tiêu đề xuống dòng */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Thêm dấu ba chấm khi quá dài */
+  }
+  
+  .card-text {
+    max-height: 4rem; /* Cố định chiều cao cho đoạn mô tả */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Thêm dấu ba chấm */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Giới hạn 3 dòng */
+    -webkit-box-orient: vertical;
+  }
+  .carousel-item {
+    height: 500px; /* Chiều cao tùy chỉnh của slide */
+  }
+  
+  .carousel-item img {
+    object-fit: cover; /* Giữ ảnh vừa khít slide */
+    height: 100%; /* Chiều cao ảnh chiếm toàn bộ chiều cao slide */
+    width: 100%; /* Đảm bảo ảnh phủ toàn bộ chiều rộng slide */
+  }
+  
+  

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/styles.css';
+
 
 const HomePage = () => {
   const [bestSellers, setBestSellers] = useState([]);
@@ -17,24 +19,47 @@ const HomePage = () => {
     <div className="container">
       <h1 className="my-4">Trà Sữa Ngon Nhất</h1>
       <div className="banner">
-        <img src="images/banner.jpg" className="img-fluid" alt="Banner" />
+        <img src="" className="img-fluid" alt="Banner" />
       </div>
-      <h2 className="my-4">Sản Phẩm Best Seller</h2>
-      <div className="row">
-        {bestSellers.map(product => (
-          <div className="col-md-4" key={product.id}>
-            <div className="card mb-4">
-              <img src={product.image} className="card-img-top" alt={product.name} />
-              <div className="card-body">
-                <h5 className="card-title">{product.name}</h5>
-                <p className="card-text">{product.description}</p>
-                <p className="card-text">Giá: {product.price} VNĐ</p>
-                <Link to="/shop" className="btn btn-primary">Mua Ngay</Link>
-              </div>
+
+      <h2 className="my-4">Best Seller</h2>
+      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+      <div className="carousel-indicators">
+        {bestSellers.map((_, index) => (
+          <button
+            key={index}
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to={index}
+            className={index === 0 ? 'active' : ''}
+            aria-current={index === 0 ? 'true' : 'false'}
+            aria-label={`Slide ${index + 1}`}
+          ></button>
+        ))}
+      </div>
+      <div className="carousel-inner">
+        {bestSellers.map((product, index) => (
+          <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={product.id}>
+            <Link to="/shop">
+              <img src={product.image} className="d-block w-100" alt={product.name} />
+            </Link>
+            <div className="carousel-caption d-none d-md-block">
+              <h5>{product.name}</h5>
+              {/* <p>{product.description}</p> */}
+              <p>Giá: {product.price} VNĐ</p>
             </div>
           </div>
         ))}
       </div>
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
+      </button>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
+      </button>
+    </div>
     </div>
   );
 };

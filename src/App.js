@@ -5,6 +5,7 @@ import HomePage from './components/HomePage';
 import ShopPage from './components/ShopPage';
 import Cart from './components/Cart';
 import Checkout from './components/Checkout';
+import Footer from './components/Footer';
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/cart" element={<Cart cartItems={cartItems} removeFromCart={removeFromCart} updateCartItem={updateCartItem} />} />
         <Route path="/checkout" element={<Checkout cartItems={cartItems} />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };

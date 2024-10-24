@@ -6,7 +6,7 @@
         "category": ["Best Seller","Trà sữa"],
         "price": 35000,
         "image": "https://abcsport.com.vn/image/catalog/2023/T01/mot-ly-tra-sua-bao-nhieu-calo-1.jpg",
-        "sugarLevel":[""],
+        "sugarLevel":["0", "25", "50", "70"],
         "sizes": ["S", "M", "L"],
         "toppings": ["Trân châu", "Thạch", "Pudding"],
         "iceLevels": ["0", "25", "50", "70"],
@@ -27,7 +27,7 @@
         "name": "Trà sữa Oolong",
         "category": ["Best Seller","Trà sữa"],
         "price": 38000,
-        "image": "images/oolong_milk_tea.jpg",
+        "image": "https://img.tastykitchen.vn/crop/820x642/2022/03/28/tra-sua-olong-8616.jpg",
         "sizes": ["S", "M", "L"],
         "toppings": ["Trân châu", "Thạch", "Kem Cheese"],
         "description": "Trà sữa Oolong với vị trà thanh nhẹ, kết hợp hoàn hảo với các loại topping."
@@ -57,7 +57,7 @@
         "name": "Trà sữa trân châu đường đen",
         "category": ["Best Seller","Trà sữa"],
         "price": 40000,
-        "image": "images/cac-loai-tra-sua-ngon.jpg",
+        "image": "https://cdn.tgdd.vn/Files/2022/01/21/1412109/huong-dan-cach-lam-tra-sua-tran-chau-duong-den-202201211522033706.jpg",
         "sizes": ["S", "M", "L"],
         "toppings": ["trân châu đen", "đường đen"],
         "description": "Trà sữa trân châu đường đen sẽ sử dụng sữa tươi không đường để vị không bị ngọt quá, phù hợp với topping gồm: trân châu và đường đen.Phần đường mía đen tự nhiên có độ ngọt vừa phải, giữ được vị thơm, bao phủ quanh các hạt trân châu, giúp tăng độ kết dính và độ thơm ngon cho thức uống này."
@@ -157,7 +157,7 @@
         "name": "TRÀ SỮA SOCOLA",
         "category": ["Best Seller","Trà sữa"],
         "price": 42000,
-        "image": "",
+        "image": "https://bizweb.dktcdn.net/100/421/036/files/tra-sua-socola-chuoi.jpg?v=1638862042901",
         "sizes": ["S", "M", "L"],
         "toppings": ["trân châu đen", "trân châu trắng", " thạch rau câu"],
         "description": "Trà sữa Socola đúng chuẩn là món dễ gây nghiện và dễ uống cực kỳ. Hội fan yêu thích vị nhẫn và mùi thơm đắng đặc trưng của chất caffein thì không thể nào bỏ qua món này. Sự lôi cuốn mà người dùng tìm đến nó nằm hết trong độ béo nhẹ và vị của socola."
@@ -187,7 +187,7 @@
         "name": "Hồng trà sữa",
         "category": ["Best Seller","Trà sữa"],
         "price": 42000,
-        "image": "",
+        "image": "https://cdn.tgdd.vn/2021/11/CookRecipe/Avatar/hong-tra-sua-voi-sua-tuoi-thumbnail.jpg",
         "sizes": ["S", "M", "L"],
         "toppings": ["trân châu đen", "trân châu trắng", " thạch rau câu"],
         "description": "Hồng trà có vị thơm và thanh rất nổi trội nên được xếp vào loại đồ uống ưa thích nhất của trà sữa. Hồng trà sữa là thức uống được giới trẻ khá ưa chuộng."
