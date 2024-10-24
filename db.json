@@ -87,7 +87,7 @@
           {
             "id": 8,
             "name": "Trà sữa khoai môn",
-            "category": "Trà sữa",
+            "category": ["Best Seller","Trà sữa"],
             "price": 42000,
             "image": "images/Trà sữa khoai môn.jpg",
             "sugarLevel":["0", "25", "50", "70"],
@@ -219,7 +219,7 @@
           {
             "id": 19,
             "name": "Hồng trà sữa",
-            "category": ["Best Seller","Trà sữa"],
+            "category": "Trà sữa",
             "price": 42000,
             "image": "images/Hồng trà sữa.jpg",
             "sugarLevel":["0", "25", "50", "70"],
