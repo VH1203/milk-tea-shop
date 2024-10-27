@@ -27,7 +27,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis; /* Thêm dấu ba chấm */
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* Giới hạn 3 dòng */
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
   }
   .carousel-item {
@@ -38,6 +38,13 @@ body {
     object-fit: cover; /* Giữ ảnh vừa khít slide */
     height: 100%; /* Chiều cao ảnh chiếm toàn bộ chiều cao slide */
     width: 100%; /* Đảm bảo ảnh phủ toàn bộ chiều rộng slide */
+  }
+  .nav-link.active {
+    color: #007bff;
+    font-weight: bold; /* Bôi đậm chữ */
+  }
+  .nav{
+    text-align: center;
   }
   
   
