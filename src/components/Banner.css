@@ -1,0 +1,16 @@
+.banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 1s ease-in-out; /* Thêm hiệu ứng chuyển động mượt mà */
+}
+
+.carousel-item {
+  transition: transform 1s ease-in-out; /* Điều chỉnh tốc độ chuyển động */
+}

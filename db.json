@@ -8,7 +8,7 @@
         "image": "images/Trà sữa truyền thống.jpg",
         "sugarLevel":["0", "25", "50", "70"],
         "sizes": ["S", "M", "L"],
-        "toppings": ["Trân châu", "Thạch", "Pudding"],
+        "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
         "iceLevels": ["0", "25", "50", "70"],
         "description": "Trà sữa với hương vị truyền thống, đậm đà và hấp dẫn."
           },
@@ -20,7 +20,7 @@
             "image": "images/Trà sữa Matcha.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu", "Thạch", "Kem Cheese"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa matcha tươi mới, thơm ngon kết hợp với kem cheese đặc biệt."
           },
@@ -29,10 +29,10 @@
             "name": "Trà sữa Oolong",
             "category": ["Best Seller","Trà sữa"],
             "price": 38000,
-            "image": "https://olongha.com/wp-content/uploads/2021/07/olong-sua-dac-biet-8.jpg",
+            "image": "images/Trà sữa Oolong.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu", "Thạch", "Kem Cheese"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa Oolong với vị trà thanh nhẹ, kết hợp hoàn hảo với các loại topping."
           },
@@ -44,7 +44,7 @@
             "image": "images/Trà sữa cà phê.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu", "Trân châu trắng", "Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": " Những hương vị hòa quyện một cách hoàn hảo, hương thơm nhẹ của hồng trà, hương nồng nàn của cà phê. Vị béo ngậy của sữa kết hợp cùng vị ngọt ngào và độ dai của trân châu mang đến sự hạnh phúc cho người thưởng thức ly trà sữa này."
           },
@@ -56,7 +56,7 @@
             "image": "images/Trà sữa bạc hà.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", "Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa bạc hà ngoài vị chát nhẹ thì còn có vị thơm nồng và ngọt ngọt của sữa, the mát của bạc hà."
           },
@@ -68,7 +68,7 @@
             "image": "images/Trà sữa trân châu đường đen .jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "đường đen"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa trân châu đường đen sẽ sử dụng sữa tươi không đường để vị không bị ngọt quá, phù hợp với topping gồm: trân châu và đường đen.Phần đường mía đen tự nhiên có độ ngọt vừa phải, giữ được vị thơm, bao phủ quanh các hạt trân châu, giúp tăng độ kết dính và độ thơm ngon cho thức uống này."
           },
@@ -80,7 +80,7 @@
             "image": "images/Trà sữa Oreo Cake Cream.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa Oreo Cake Cream là trà sữa thông thường nhưng không dùng bột pha trực tiếp, tạo nên vị trà thơm, chát cùng chút béo của sữa. Trà sữa Oreo Cake Cream được phủ thêm một lớp cake cream vàng nhạt phía trên và xung quanh thành cốc. Ly trà sữa sẽ thêm phần hấp dẫn với những miếng bánh Oreo được nghiền nhỏ, rải lên phía trên lớp kem. Trà sữa Oreo Cake Cream là thức uống vô cùng thích hợp cho những người thích vị béo ngậy của kem cheese, ngọt của vụn bánh Oreo và vị chát của trà."
           },
@@ -92,7 +92,7 @@
             "image": "images/Trà sữa khoai môn.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": " Trà sữa khoai môn có vị béo của sữa, mùi thơm của khoai môn, vị chát nhẹ của trà. Thức uống này không quá ngọt, vị ngọt thanh, có chút béo bùi là điểm cộng lớn nhất của trà sữa khoai môn. "
           },
@@ -104,7 +104,7 @@
             "image": "images/Trà sữa xoài kem cheese.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu", "Thạch", "Kem Cheese"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa xoài kem cheese bao gồm nguyên liệu là trà, sữa, xoài tươi, kem cheese, tạo nên loại thức uống độc đáo có vị ngọt đặc trưng của xoài, chút vị béo, mặn mặn của lớp kem cheese, khiến nhiều người mê mẩn."
           },
@@ -116,7 +116,7 @@
             "image": "images/Trà sữa matcha đậu đỏ.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa matcha đậu đỏ là trà sữa trà xanh với vị chát nhẹ của trà hòa quyện cùng vị thơm mát của matcha, chút ngọt nhẹ của sữa tươi. Phần đậu đỏ được rải phía trên bề mặt cốc trà vô cùng hấp dẫn. Đậu đỏ có mùi thơm và vị ngọt dịu đặc trưng, kết hợp với vị matcha sẽ tạo nên hương vị hoàn hảo ở đầu lưỡi."
           },
@@ -128,7 +128,7 @@
             "image": "images/Trà sữa Oreo kem trứng.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Với vị ngọt mặn đậm đà đặc trưng của oreo và kem trứng cùng vị thơm ngon của công thức trà sữa nguyên bản, Chúng tôi tin rằng đây sẽ là liều thuốc tinh thần bổ sung năng lượng cho ngày làm việc/học tập thêm năng suất !"
           },
@@ -140,7 +140,7 @@
             "image": "images/Trà sữa Pudding đậu đỏ.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa Pudding đậu đỏ cũng là một trong các loại trà sữa ngon, có topping gồm phần pudding trứng cùng với hạt đậu đỏ. Về phần trà sữa, ngoài vị chát nhẹ cùng vị ngọt béo của sữa và trà, điểm nhấn của cốc trà sữa này còn nằm ở phần pudding trứng và đậu đỏ phía trên. Pudding trứng mềm mại, có vị ngọt và thơm, pha chút béo ngậy của vani và có màu vàng óng ngọt ngào. Những hạt đậu đỏ mềm nhuyễn cũng có vị ngọt nhưng lại khá bùi khi nhai, kết hợp cùng trà sữa tạo thành trà sữa Pudding đậu đỏ vô cùng tuyệt vời."
           },
@@ -152,7 +152,7 @@
             "image": "images/Trà sữa sương sáo.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Sương sáo, sương sa là những nguyên liệu rất quen thuộc tại các tỉnh miền Nam vào những ngày hè nắng nóng. Sương sáo được biết là món ăn có tính giải nhiệt cao và sở hữu nhiều công dụng tốt cho sức khỏe. Trà sữa sương sáo là sự kết hợp giữa trà sữa truyền thống với phần topping sương sáo thơm ngon, mát lạnh.Trà sữa sương sáo được đánh giá là một trong các loại trà sữa ngon, có vị không quá ngọt béo hay ngọt ngậy như các loại trà sữa khác. Vị ngọt thanh của sương sáo kết hợp cùng chút thơm, béo của sữa tươi và vị chát nhẹ của trà. Trà sữa sương sáo nên được pha chế với công thức có độ ngọt vừa phải, mùi thơm đặc trưng sẽ mang tính giải khát cao."
           },
@@ -164,7 +164,7 @@
             "image": "images/Trà sữa Earl Grey.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa Earl Grey (trà Bá Tước) là một loại trà sữa nổi tiếng, được làm từ trà xuất xứ từ nước Anh đã trải qua công đoạn ướp khá cầu kỳ. Trà sữa Earl Grey có vị hơi chát và đắng nhẹ, có mùi thơm rất đặc trưng mà không phải loại trà nào cũng có. Điểm nhấn của trà sữa Earl Grey là tinh dầu cam đắng Bergamot hòa quyện cùng vị béo ngậy của lớp kem mặn phía trên."
           },
@@ -176,7 +176,7 @@
             "image": "images/Trà sữa caramel.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa caramel là một trong các loại trà sữa ngon, hấp dẫn với sự kết hợp của trà sữa truyền thống và lớp kem caramel thơm, béo ngậy. Điểm đặc trưng so với các loại trà sữa khác đó là phần trà sữa ngọt thanh, kết hợp cùng lớp caramel thơm, béo tạo nên một loại thức uống không quá ngọt nhưng vẫn có mùi béo ngậy mà bất kỳ ai cũng không thể cưỡng lại vị ngon này."
           },
@@ -188,7 +188,7 @@
             "image": "images/tra-sua-socola-chuoi.webp",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa Socola đúng chuẩn là món dễ gây nghiện và dễ uống cực kỳ. Hội fan yêu thích vị nhẫn và mùi thơm đắng đặc trưng của chất caffein thì không thể nào bỏ qua món này. Sự lôi cuốn mà người dùng tìm đến nó nằm hết trong độ béo nhẹ và vị của socola."
           },
@@ -200,7 +200,7 @@
             "image": "images/Trà sữa Trân châu trắng.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trân châu trắng được làm từ bột rau câu dẻo, bột rau câu giòn, tạo hình thành các hạt tròn bé có màu trắng.Trân châu trắng có mùi thơm, vị ngọt và giòn giòn, không dẻo như Trân châu đen. Điểm đặc trưng so với các loại trà sữa: Về cơ bản chỉ khác trà sữa trân châu thông thường ở phần topping, còn về nguyên liệu vẫn gồm trà, sữa cơ bản."
           },
@@ -212,7 +212,7 @@
             "image": "images/Trà sữa dâu tây.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Hương vị thơm mát, chua ngọt của dâu tây kết hợp với vị béo thơm của trà sữa tạo nên sức hấp dẫn đặc biệt của món trà sữa dâu."
           },
@@ -224,7 +224,7 @@
             "image": "images/Hồng trà sữa.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Hồng trà có vị thơm và thanh rất nổi trội nên được xếp vào loại đồ uống ưa thích nhất của trà sữa. Hồng trà sữa là thức uống được giới trẻ khá ưa chuộng."
           },
@@ -236,7 +236,7 @@
             "image": "images/Trà sữa Kiwi.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Kiwi không chỉ trông hấp dẫn bởi màu xanh bắt mắt mà còn nổi tiếng với mùi vị ngon lành cùng công dụng rất tốt cho sức khỏe, chống lại quá trình oxy hóa. Trà sữa kiwi không chỉ đơn thuần là một thức uống giải khát mà còn giúp làm đẹp da đối với chị em phụ nữ."
           },
@@ -248,7 +248,7 @@
             "image": "images/Trà sữa việt quất.jpg",
             "sugarLevel":["0", "25", "50", "70"],
             "sizes": ["S", "M", "L"],
-            "toppings": ["Trân châu đen", "Trân châu trắng", " Thạch rau câu"],
+            "toppings": ["Trân châu đen", "Thạch thủy tinh", "Pudding", "Trân châu trắng", "Kem Cheese"],
             "iceLevels": ["0", "25", "50", "70"],
             "description": "Trà sữa việt quất thanh mát, vị thơm béo của trà sữa ô long hòa lẫn với vị chua chua ngọt ngọt của việt quất. Uống 1 ngụm lại nhai thêm chút trân châu dai dai giòn giòn cho hương vị vừa sảng khoái lại vừa hấp dẫn đến không ngờ!"
           },
@@ -486,7 +486,7 @@
           "category": ["Nước giải khát", "Best Seller"],
           "price": 30000,
           "image": "images/tra_chanh_gia_tay.jpg",
-          "sugarLevel": ["0", "25", "50", "70", "100"],
+          "sugarLevel": ["0", "25", "50", "70"],
           "sizes": ["S", "M", "L"],
           "toppings": ["Chanh tươi", "Lá bạc hà","Nha đam","Trân châu","Thạch thủy tinh"],
           "iceLevels": ["0", "25", "50", "70"],
@@ -519,7 +519,7 @@
       {
           "id": 44,
           "name": "Trà Tắc",
-          "category": ["Nước giải khát", "Nước giải khát"],
+          "category": ["Nước giải khát", "Best Seller"],
           "price": 35000,
           "image": "images/tra_tac.jpg",
           "sugarLevel": ["0", "25", "50", "70"],
