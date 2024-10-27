@@ -1,15 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client'; // Thay đổi này
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Modal from 'react-modal'; // Import the react-modal library
+import Modal from 'react-modal';
 
-// Set the app element for react-modal
+// Đặt phần tử ứng dụng cho react-modal
 Modal.setAppElement('#root');
 
-ReactDOM.render(
+// Sử dụng createRoot để render ứng dụng
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );

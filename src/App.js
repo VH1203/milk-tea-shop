@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState('');
 
   const addToCart = (item) => {
     setCartItems(prev => [...prev, item]);
@@ -26,14 +27,25 @@ const App = () => {
     });
   };
 
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
+  };
+
+  const handlePlaceOrder = () => {
+    // Xử lý đơn hàng tại đây (có thể gửi dữ liệu đến API)
+    console.log("Đơn hàng đã được đặt:", cartItems);
+    setCartItems([]); // Xóa giỏ hàng sau khi đặt hàng
+    // Có thể chuyển hướng đến một trang khác nếu cần
+  };
+
   return (
     <Router>
-      <Navbar />
+      <Navbar onCategoryChange={handleCategoryChange} />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/shop" element={<ShopPage addToCart={addToCart} />} />
+        <Route path="/shop" element={<ShopPage addToCart={addToCart} selectedCategory={selectedCategory} />} />
         <Route path="/cart" element={<Cart cartItems={cartItems} removeFromCart={removeFromCart} updateCartItem={updateCartItem} />} />
-        <Route path="/checkout" element={<Checkout cartItems={cartItems} />} />
+        <Route path="/checkout" element={<Checkout cartItems={cartItems} onPlaceOrder={handlePlaceOrder} />} />
       </Routes>
       <Footer />
     </Router>
