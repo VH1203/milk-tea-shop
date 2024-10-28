@@ -5,7 +5,6 @@ const Banner = () => {
   const images = [
     "Banner/a1.jpg",
     "Banner/a2.jpg",
-    // Thêm các ảnh khác nếu cần
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

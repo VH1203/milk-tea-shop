@@ -2,78 +2,85 @@ body {
     background-color: #f8f9fa;
   }
   .product-card {
-    margin-bottom: 20px; /* Khoảng cách giữa các sản phẩm */
+    margin-bottom: 20px; 
   }
-  
-  .container {
-    padding-top: 20px;
+  .navbar{
+    background-color: #EABB7F;
   }
   
   .card {
-    width: 20rem; /* Cố định chiều rộng */
+    width: 20rem; 
   }
   
   .card-img-top {
-    height: 200px; /* Cố định chiều cao cho ảnh */
-    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    height: 200px; 
+    object-fit: cover;
   }
   
   .card-title {
-    font-size: 1.25rem; /* Kích thước chữ cho tiêu đề */
-    white-space: nowrap; /* Ngăn tiêu đề xuống dòng */
+    font-size: 1.25rem; 
+    white-space: nowrap; 
     overflow: hidden;
-    text-overflow: ellipsis; /* Thêm dấu ba chấm khi quá dài */
+    text-overflow: ellipsis; 
   }
   
   .card-text {
-    max-height: 4rem; /* Cố định chiều cao cho đoạn mô tả */
+    max-height: 4rem; 
     overflow: hidden;
-    text-overflow: ellipsis; /* Thêm dấu ba chấm */
+    text-overflow: ellipsis; 
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
   }
   .carousel-item {
-    height: 500px; /* Chiều cao tùy chỉnh của slide */
+    height: 500px;
   }
   
   .carousel-item img {
-    object-fit: cover; /* Giữ ảnh vừa khít slide */
-    height: 100%; /* Chiều cao ảnh chiếm toàn bộ chiều cao slide */
-    width: 100%; /* Đảm bảo ảnh phủ toàn bộ chiều rộng slide */
+    object-fit: cover; 
+    height: 100%; 
+    width: 100%; 
   }
   .nav-link.active {
-    color: #007bff;
-    font-weight: bold; /* Bôi đậm chữ */
+    border-radius: 5px;
+    background-color: #fff8e1eb;
+    font-weight: bold; 
   }
   .nav{
     text-align: center;
   }
   .pagination {
     display: flex;
-    justify-content: center; /* Căn giữa các nút phân trang */
+    justify-content: center; 
     margin-top: 20px;
   }
   
   .page-link {
-    margin: 0 5px; /* Khoảng cách giữa các nút */
-    padding: 10px 15px; /* Padding cho nút */
-    border: 1px solid #007bff; /* Đường viền */
-    background-color: #fff; /* Màu nền */
-    color: #007bff; /* Màu chữ */
-    cursor: pointer; /* Con trỏ chuột dạng tay khi di chuột qua */
-    border-radius: 20px; /* Bo tròn nút */
-    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền khi hover */
+    margin: 0 5px; 
+    padding: 15px 15px; 
+    border: 1px solid #007bff; 
+    background-color: #fff; 
+    color: #007bff; 
+    cursor: pointer; 
+    border-radius: 50%;
+    transition: background-color 0.3s; 
   }
-  
   .page-link:hover {
-    background-color: #007bff; /* Màu nền khi hover */
-    color: white; /* Màu chữ khi hover */
+    background-color: #007bff; 
+    color: white; 
   }
   
   .page-link.active {
-    background-color: #007bff; /* Màu nền cho nút đang hoạt động */
-    color: white; /* Màu chữ cho nút đang hoạt động */
+    background-color: #007bff; 
+    color: white; 
+  }
+  .logo {
+    max-width: 80px;
+    height: auto;
+    border-radius: 50%;
+  }
+  footer{
+    background-color: #EABB7F;
   }
   
   
