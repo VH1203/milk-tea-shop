@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light py-4 mt-5">
+    <footer className="footer-fixed text-light py-4 mt-5">
       <div className="container text-center">
         <p>&copy; {new Date().getFullYear()} Milk Tea Shop. All Rights Reserved.</p>
         <div className="social-icons">

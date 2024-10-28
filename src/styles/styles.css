@@ -5,9 +5,6 @@ body {
     margin-bottom: 20px; /* Khoảng cách giữa các sản phẩm */
   }
   
-  .container {
-    padding-top: 20px;
-  }
   
   .card {
     width: 20rem; /* Cố định chiều rộng */
@@ -75,7 +72,22 @@ body {
     background-color: #007bff; /* Màu nền cho nút đang hoạt động */
     color: white; /* Màu chữ cho nút đang hoạt động */
   }
-  
+  /* Styles cho toàn bộ body để đảm bảo footer nằm ở cuối */
+/* Cấu hình body và root để chiếm toàn bộ chiều cao */
+
+
+
+.footer-fixed {
+  background-color:  rgb(11, 201, 138);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 2px;
+}
+.navbar {
+  background-color: rgb(11, 201, 138);
+}
+
   
 
   

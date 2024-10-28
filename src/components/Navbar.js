@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
+
 const Navbar = ({ onCategoryChange }) => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-orange">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">Milk Tea Shop</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
