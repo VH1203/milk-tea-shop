@@ -32,10 +32,8 @@ const App = () => {
   };
 
   const handlePlaceOrder = () => {
-    // Xử lý đơn hàng tại đây (có thể gửi dữ liệu đến API)
     console.log("Đơn hàng đã được đặt:", cartItems);
-    setCartItems([]); // Xóa giỏ hàng sau khi đặt hàng
-    // Có thể chuyển hướng đến một trang khác nếu cần
+    setCartItems([]); 
   };
 
   return (

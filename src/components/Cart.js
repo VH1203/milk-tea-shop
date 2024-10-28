@@ -27,7 +27,7 @@ const Cart = ({ cartItems, removeFromCart, updateCartItem }) => {
   };
 
   return (
-    <div className="container">
+    <div style={{paddingBottom:'142px'}} className="container">
       <h1 className="my-4">Giỏ Hàng</h1>
       {cartItems.length === 0 ? ( // Kiểm tra nếu giỏ hàng rỗng
         <p>Giỏ hàng của bạn hiện đang trống.</p>

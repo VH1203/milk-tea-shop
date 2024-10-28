@@ -4,9 +4,12 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = ({ onCategoryChange }) => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-orange">
+    <nav className="navbar navbar-expand-lg navbar-light bg-">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">Milk Tea Shop</Link>
+        <Link className="navbar-brand text-light" to="/">
+          <img src="images/logo.png" className="logo" alt="Logo" /><br></br>
+          Milk Tea Shop
+        </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -37,6 +40,10 @@ const Navbar = ({ onCategoryChange }) => {
             </li>
           </ul>
         </div>
+        <Link className="navbar-brand text-light" to="/">
+          <img src="images/logo.png" className="logo" alt="Logo" /><br></br>
+          Milk Tea Shop
+        </Link>
       </div>
     </nav>
   );

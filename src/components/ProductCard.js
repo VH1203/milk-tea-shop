@@ -32,7 +32,7 @@ const ProductCard = ({ product, addToCart }) => {
   const decreaseQuantity = () => setQuantity(prev => (prev > 1 ? prev - 1 : 1));
 
   return (
-    <div className="card">
+    <div style={{marginBottom:'10px'}} className="card">
       <img src={product.image} alt={product.name} className="card-img-top" />
       <div className="card-body">
         <h5 className="card-title">{product.name}</h5>
